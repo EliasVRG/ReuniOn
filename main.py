@@ -1,7 +1,7 @@
 from services.google_sheets import GoogleSheetsAPI
 from services.reuniOn_manager import ReuniOnManager
 
-API_URL = "https://script.google.com/macros/s/AKfycbxRyrpI1ftxqS-jcYZi3HhEHOTBq157bNH1Juouj_81rR40K9zxH3VDJiRqilT4bSVvnw/exec"
+API_URL = "https://script.google.com/macros/s/AKfycbxjtYsBAhu5PsH2NjiP-XD-fs0s8kXJyFKpvTbF_uPPrahxfxru-q2FpQq8hWhU83MI/exec"
 
 if __name__ == "__main__":
     sheets_api = GoogleSheetsAPI(API_URL)
